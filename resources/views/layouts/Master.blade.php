@@ -12,18 +12,18 @@
 		<title>Neptune</title>
 
 		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="{{ asset('dist/vendor/bootstrap/css/bootstrap.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/themify-icons/themify-icons.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/font-awesome/css/font-awesome.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/animate.css/animate.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/jscrollpane/jquery.jscrollpane.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/waves/waves.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/chartist/chartist.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('dist/vendor/switchery/dist/switchery.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/themify-icons/themify-icons.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/animate.css/animate.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/jscrollpane/jquery.jscrollpane.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/waves/waves.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/chartist/chartist.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/switchery/dist/switchery.min.css') }}">
 
 		<!-- Neptune CSS -->
-		<link rel="stylesheet" href="{{ asset('dist/css/core.css') }}">
-		<script type="text/javascript" src="{{ asset('dist/js/jquery.js') }}"></script>
+		<link rel="stylesheet" href="{{ asset('css/core.css') }}">
+		<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
 
 		<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -93,18 +93,18 @@
 		</div>
 
 		
-		<script type="text/javascript" src="{{ asset('dist/vendor/tether/js/tether.min.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('dist/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('dist/vendor/detectmobilebrowser/detectmobilebrowser.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('dist/vendor/jscrollpane/jquery.mousewheel.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('dist/vendor/jscrollpane/mwheelIntent.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('dist/vendor/jscrollpane/jquery.jscrollpane.min.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('dist/vendor/waves/waves.min.js') }}"></script>
-	{{-- 	<script type="text/javascript" src="{{ asset('dist/vendor/chartist/chartist.min.js') }}"></script> --}}
-		<script type="text/javascript" src="{{ asset('dist/vendor/switchery/dist/switchery.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/tether/js/tether.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/detectmobilebrowser/detectmobilebrowser.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/jscrollpane/jquery.mousewheel.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/jscrollpane/mwheelIntent.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/jscrollpane/jquery.jscrollpane.min.js') }}"></script>
+		<script type="text/javascript" src="{{ asset('vendor/waves/waves.min.js') }}"></script>
+	{{-- 	<script type="text/javascript" src="{{ asset('vendor/chartist/chartist.min.js') }}"></script> --}}
+		<script type="text/javascript" src="{{ asset('vendor/switchery/dist/switchery.min.js') }}"></script>
 
 		<!-- Neptune JS -->
-		<script type="text/javascript" src="{{ asset('dist/js/app.js') }}"></script>
-		{{-- <script type="text/javascript" src="{{ asset('dist/js/demo.js') }}"></script> --}}
+		<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+		{{-- <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script> --}}
 	</body>
 </html>
